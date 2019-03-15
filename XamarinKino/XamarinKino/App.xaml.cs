@@ -1,6 +1,5 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
+using XamarinKino.Menu;
 
 namespace XamarinKino
 {
@@ -10,7 +9,7 @@ namespace XamarinKino
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Master();
         }
 
         protected override void OnStart()
